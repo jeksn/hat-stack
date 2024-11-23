@@ -1,0 +1,24 @@
+<div x-data="{ open: false }" class="w-full mt-4 mb-6">
+    <div class="relative px-6 pt-10 pb-8 bg-white shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg sm:px-10">
+        <div class="flex justify-between">
+            <h2 class="w-full text-xl font-medium">Sample Component</h2>
+            <button @click="open = ! open" @click.outside="open = false" class="flex justify-end w-full cursor-pointer">
+            <span class="flex transition duration-150" :class="{'rotate-45' : open}">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                </svg>
+            </span>
+            </button>
+        </div>
+        <div x-show="open">
+            <div class="my-8 space-y-3 font-normal">
+                <p>
+                Sint sunt mollit incididunt non labore deserunt ea officia in esse sint fugiat occaecat in amet. Consequat cillum qui consequat sunt. Deserunt deserunt magna mollit consequat minim. Magna magna commodo reprehenderit commodo minim ipsum sit labore voluptate cillum ad velit cillum. Magna labore adipisicing id ullamco commodo ipsum cupidatat sunt duis do amet ad nostrud consequat Lorem. Cupidatat culpa excepteur aliquip eu.
+                </p>
+                <p>
+                Id velit ea proident adipisicing elit eu adipisicing officia quis. Mollit magna tempor non sit dolor in ipsum sunt adipisicing elit dolore anim quis aliquip. Lorem cillum cupidatat non magna anim laboris velit id consequat reprehenderit elit. Do minim consectetur consectetur commodo laborum exercitation aute labore in officia sint reprehenderit ea consectetur. Deserunt ea mollit amet officia. Sit laboris velit id nulla id cillum magna proident velit fugiat. Adipisicing pariatur ut minim ipsum est aliquip dolore veniam anim.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
