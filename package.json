@@ -1,9 +1,6 @@
 {
-  "name": "create-alpine-app",
+  "name": "hatstack",
   "version": "0.0.8",
-  "bin": {
-    "create-alpine-app": "bin/index.js"
-  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",

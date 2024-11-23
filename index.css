@@ -1,7 +1,5 @@
 @import "tailwindcss";
 
 @source "index.html";
-@source "/app/components/*.hbs";
-@source "/app/partials/*.hbs";
-
-[x-cloak]{ display:none }
+@source "./app/partials/*.hbs";
+@source "./app/components/*.hbs";
