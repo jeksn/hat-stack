@@ -1,10 +1,8 @@
 # Hat Stack
 
-A simple starter template based on Alpine.js, TailwindCSS and Handlebars.
+A simple starter template based on Alpine.js, Tailwind CSS v4.0 and Handlebars.
 
 Inspired by [Create Alpine App](https://github.com/thedevdojo/create-alpine-app).
-
-* Running on the TailwindCSS 4.0 beta. *
 
 ## Start development
 
